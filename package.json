@@ -1,0 +1,19 @@
+{
+  "name": "file-metadata-microservice",
+  "description": "Microservice that returns the file size of an upload",
+  "version": "1.0.0",
+  "author": {
+    "name": "nitehawkx aka crossanpdx"
+  },
+  "dependencies": {
+    "body-parser": "~1.14.x",
+    "express": "~4.13.x",
+    "multer": "^1.1.0"
+  },
+  "engines": {
+    "node": "4.2.4"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
